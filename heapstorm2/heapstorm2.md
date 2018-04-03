@@ -1,4 +1,5 @@
-#0ctf 2018 heapstorm 2
+# 0ctf 2018 heapstorm 2
+
 
 反正打死我也想不到是这么做的。
 
@@ -269,7 +270,7 @@ fwd->bk = victim
 感觉这是一种比较通用的方法去返回任意地址，核心操作就是通过利用unsortbin chunk加入到 large bin中的unlink去写数据，使得unsortbin中后续的chunk的size能绕过检查。
 
 
-###ref
+### ref
 
 [https://gist.github.com/Jackyxty/9de01a0bdfe5fb6d0b40fe066f059fa3](https://gist.github.com/Jackyxty/9de01a0bdfe5fb6d0b40fe066f059fa3)
  
