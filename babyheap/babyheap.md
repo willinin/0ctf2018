@@ -1,4 +1,4 @@
-#0ctf2018 babyheap
+# 0ctf2018 babyheap
 
 很简单的一个套路题，看到libc2.24就感觉是和`_IO_FILE`相关的虚表检查。
 
