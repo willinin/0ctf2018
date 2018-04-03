@@ -267,7 +267,7 @@ fwd->bk = victim
 
 泄露了libc之后就可以改写 `__free_hook`。
 
-感觉这是一种比较通用的方法去返回任意地址，核心操作就是通过利用unsortbin chunk加入到 large bin中的unlink去写数据，使得unsortbin中后续的chunk的size能绕过检查。
+感觉这是一种比较通用的方法去返回任意地址，核心操作就是通过利用unsortbin chunk插入到 large bin的操作去写数据，使得unsortbin中后续的chunk的size能绕过检查。
 
 
 ### ref
