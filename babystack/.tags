@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+random	/Users/linallen/Desktop/0ctf/babystack/pow.py	/^import random, string, subprocess, os, sys$/;"	namespace	line:4
+string	/Users/linallen/Desktop/0ctf/babystack/pow.py	/^import random, string, subprocess, os, sys$/;"	namespace	line:4
+subprocess	/Users/linallen/Desktop/0ctf/babystack/pow.py	/^import random, string, subprocess, os, sys$/;"	namespace	line:4
+os	/Users/linallen/Desktop/0ctf/babystack/pow.py	/^import random, string, subprocess, os, sys$/;"	namespace	line:4
+sys	/Users/linallen/Desktop/0ctf/babystack/pow.py	/^import random, string, subprocess, os, sys$/;"	namespace	line:4
+sha256	/Users/linallen/Desktop/0ctf/babystack/pow.py	/^from hashlib import sha256$/;"	namespace	line:5
+proof_of_work	/Users/linallen/Desktop/0ctf/babystack/pow.py	/^def proof_of_work():$/;"	function	line:9
+exec_serv	/Users/linallen/Desktop/0ctf/babystack/pow.py	/^def exec_serv(name, payload):$/;"	function	line:17
+payload	/Users/linallen/Desktop/0ctf/babystack/pow.py	/^    payload = sys.stdin.read(0x100)$/;"	variable	line:24
